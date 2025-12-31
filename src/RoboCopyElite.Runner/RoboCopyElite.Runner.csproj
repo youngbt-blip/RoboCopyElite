@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Process execution, streaming, and parsing layer for RoboCopyElite.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\\RoboCopyElite.Core\\RoboCopyElite.Core.csproj" />
+  </ItemGroup>
+</Project>
