@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Core domain models, validation, and command building for RoboCopyElite.</Description>
+  </PropertyGroup>
+</Project>

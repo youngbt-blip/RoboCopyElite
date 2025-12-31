@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon></ApplicationIcon>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishTrimmed>false</PublishTrimmed>
+    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
+    <Description>WPF UI for RoboCopyElite.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\\RoboCopyElite.Core\\RoboCopyElite.Core.csproj" />
+    <ProjectReference Include="..\\RoboCopyElite.Runner\\RoboCopyElite.Runner.csproj" />
+  </ItemGroup>
+</Project>
